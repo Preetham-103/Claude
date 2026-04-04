@@ -1,42 +1,33 @@
-🔹 What is Context in Prompting?
+Context in Prompting
 
-1) Small Definition
+Definition
 
-Context in prompting refers to the background information, instructions, or constraints you provide to guide the AI in generating accurate and relevant responses.
+Context in prompting refers to the background information, instructions, or examples provided to an AI model to guide its response.
 
-⸻
+Why Use It
 
-2) Why to Use It
-	•	Helps AI understand your exact requirement
-	•	Reduces ambiguity
-	•	Produces more accurate and structured outputs
+Ensures the model understands the situation.
 
-⸻
+Reduces ambiguity.
 
-3) When to Use It
-	•	When the task is complex
-	•	When domain-specific knowledge is required (e.g., coding, finance)
-	•	When output format matters (tables, JSON, etc.)
+Produces more accurate and relevant outputs.
 
-⸻
+When to Use It
 
-4) How to Use It
+Anytime you need tailored responses.
 
-Provide:
-	•	Background information
-	•	Role definition (optional)
-	•	Constraints
-	•	Expected output format
+When the task depends on prior details (e.g., role, domain, or constraints).
 
-___
-Structure: 
+How to Use It
 
-  Context + Task + Constraints + Output format
-____
+Provide clear background information.
 
-❌ Without Context:
-Explain APIs
+Include role, task, and constraints.
 
-✅ With Context:
-You are a backend developer mentor. 
-Explain APIs to a beginner using real-world examples and keep it under 200 words.
+Use structured formatting.
+
+Example
+
+Normal Prompt: "Explain microservices."
+
+With Context: "You are a backend Java developer teaching interns. Explain microservices in simple terms with a real-world analogy."
