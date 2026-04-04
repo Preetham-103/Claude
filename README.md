@@ -1,3 +1,11 @@
-Prompt Engineering Basics for Claude
+# 📘 Claude Prompt Engineering Guide
 
-This document explains context in prompting and key prompting techniques with definitions, usage guidelines, and real-world examples. It is structured for developers learning Claude prompt engineering.
+This repository provides a **concise introduction to prompt engineering with Claude**.  
+It covers the basics of:
+- ✨ Context in prompting  
+- 🚀 Prompting techniques (Normal, One-Shot/Few-Shot, ReACT)  
+- 🔍 Practical comparisons with real-world examples  
+
+The goal of this repo is to help developers quickly understand **how different prompting styles work** and apply them effectively in projects.
+
+---
