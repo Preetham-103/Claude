@@ -21,8 +21,11 @@ Now explain backend reliability with a similar analogy.
 ```
 ### 🧠 ReACT Prompt
 ```textQuestion: What is backend reliability?
-Reasoning: Reliability means consistent performance. In backend systems, it means APIs respond correctly under load.
-Answer: Backend reliability ensures systems consistently deliver correct responses even under stress.
+Question: What is backend reliability?  
+Reasoning: Reliability means consistent performance. In backend systems, it means APIs respond correctly under load, 
+without crashing or returning wrong data.  
+Answer: Backend reliability ensures systems consistently deliver correct responses even under stress or high traffic.  
+
 ```
 ### 🔑 Key Takeaway
 📌 Context makes prompts precise
