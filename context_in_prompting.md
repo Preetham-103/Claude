@@ -29,6 +29,7 @@ Context in prompting refers to the **background information, instructions, or ex
 
 ### ⚡ Normal Prompt
 ```text
+🚫 Without Context
 Explain microservices.
 🌟 With Context
 You are a backend Java developer teaching interns. 
