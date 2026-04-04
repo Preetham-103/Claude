@@ -27,3 +27,15 @@ Provide:
 	•	Role definition (optional)
 	•	Constraints
 	•	Expected output format
+
+___
+Structure: 
+
+  Context + Task + Constraints + Output format
+____
+
+❌ Without Context:
+Explain APIs
+✅ With Context:
+You are a backend developer mentor. 
+Explain APIs to a beginner using real-world examples and keep it under 200 words.
