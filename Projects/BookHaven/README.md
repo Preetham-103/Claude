@@ -1,23 +1,10 @@
 # 🚀 Exploring Claude Code Using a Real Microservices Project
 
-```{=html}
-<p align="center">
-```
-🧠 Hands-on exploration of Claude Code capabilities using a real-world
+## 🧠 Hands-on exploration of Claude Code capabilities using a real-world
 full-stack microservices application
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
 ![AI](https://img.shields.io/badge/AI-Claude%20Code-blueviolet?style=for-the-badge)
 ![Exploration](https://img.shields.io/badge/Focus-Codebase%20Exploration-0aa2ff?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-Microservices-success?style=for-the-badge)
-
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
@@ -223,11 +210,6 @@ Claude Code interacts with and improves an existing codebase.**
 
 ------------------------------------------------------------------------
 
-```{=html}
-<p align="center">
-```
 ✨ Experimenting with AI-assisted development workflows using Claude
 Code
-```{=html}
-</p>
-```
+
