@@ -1,0 +1,171 @@
+.customers-page {
+  padding: 2rem;
+  background-color: #111315;
+  color: white;
+  min-height: 100vh;
+}
+
+.admin-section-heading {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  padding-left: 12px;
+  margin: 1.5rem 0 1rem;
+  border-left: 3px solid #3b82f6;
+  color: #e2e8f0;
+}
+
+.customers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.add-btn {
+  background-color: #1d1f23;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #3a6363;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.status-filter button {
+  margin-right: 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: #222;
+  color: #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.status-filter .active {
+  background-color: #444;
+  color: white;
+}
+
+.role-filter select {
+  background-color: #1d1f23;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1b1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.customers-table th,
+.customers-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.profile-thumb {
+  max-width: 60px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.placeholder-thumb {
+  width: 60px;
+  height: 60px;
+  background-color: #2d3134;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  color: #888;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.customers-table td img {
+  max-width: 60px;
+  height: auto;
+  display: block;
+}
+
+.customers-table td .placeholder-thumb {
+  width: 60px;
+  height: 60px;
+}
+
+.customers-table th {
+  background-color: #25272b;
+  color: #ccc;
+}
+
+.customers-table tr:nth-child(even) {
+  background-color: #181a1c;
+}
+
+.customers-table tr:hover {
+  background-color: #2a2d30;
+}
+
+.badge {
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.badge.active {
+  background-color: #1e3329;
+  color: #6ee7b7;
+}
+
+.badge.deleted {
+  background-color: #402020;
+  color: #ff9999;
+}
+
+.view-btn,
+.delete-btn,
+.undo-btn {
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.4rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.view-btn {
+  background-color: #555;
+  color: #eee;
+}
+
+.delete-btn {
+  background-color: #c62828;
+  color: white;
+}
+
+.undo-btn {
+  background-color: #4caf50;
+  color: white;
+}

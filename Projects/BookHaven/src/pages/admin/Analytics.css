@@ -1,0 +1,95 @@
+.analytics-page {
+  padding: 2rem;
+  background-color: #111315;
+  color: #fff;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.charts-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.chart-card {
+  background-color: #1b1d20;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+  color: #eee;
+}
+
+.chart-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.chart-card h2 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.chart-card p {
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+.reporting-section {
+  margin-top: 3rem;
+  background-color: #1b1d20;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.reporting-section label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  color: #ccc;
+}
+
+.reporting-section select {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #2a2d30;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reporting-section button {
+  padding: 0.6rem 1.2rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .analytics-page {
+    padding: 1rem;
+  }
+
+  .chart-card {
+    padding: 1rem;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .charts-section {
+    flex-direction: column;
+  }
+
+}

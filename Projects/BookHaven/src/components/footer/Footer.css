@@ -1,0 +1,35 @@
+.footer-logo {
+  font-weight: 600;
+}
+
+.footer-social-icons svg {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-social-icons svg:hover {
+  color: #667eea;
+  cursor: pointer;
+}
+
+.footer-links span {
+  color: white;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links span:hover {
+  color: #667eea;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .footer-links {
+    gap: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-social-icons svg {
+    font-size: 1.2rem !important;
+  }
+}

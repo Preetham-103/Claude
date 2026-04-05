@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #030712;
+  /* color: #ffffff; */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  /* background-color: #131416; */
+  color: white;
+}
+
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.admin-main {
+  padding: 1.5rem;
+}

@@ -1,0 +1,50 @@
+
+.unauthorized-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #1a1a1a, #111);
+    color: #fff;
+  }
+  
+  .unauthorized-card {
+    background-color: #222;
+    border-radius: 15px;
+    padding: 2.5rem;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    border: 1px solid #333;
+  }
+  
+  .unauthorized-code {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #ff4c4c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .unauthorized-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .unauthorized-message {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .unauthorized-btn {
+    border: 1px solid #777;
+    color: #fff;
+    transition: 0.2s ease;
+  }
+  
+  .unauthorized-btn:hover {
+    background-color: #444;
+    border-color: #999;
+    color: #fff;
+  }

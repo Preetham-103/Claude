@@ -1,0 +1,199 @@
+.dashboard-container {
+  padding: 2rem;
+  color: white;
+  background-color: #131416;
+  min-height: 100vh;
+}
+
+.dashboard-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.dashboard-subtitle {
+  margin-bottom: 2rem;
+  color: #aaa;
+}
+
+.scrollable-table {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+/* Metrics Grid */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.metric-card {
+  background-color: #1e2124;
+  padding: 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+
+.metric-change {
+  color: #20c997;
+  font-size: 0.9rem;
+}
+
+.admin-section-heading {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  padding-left: 12px;
+  margin: 1.5rem 0 1rem;
+  border-left: 3px solid #3b82f6;
+  color: #e2e8f0;
+}
+
+.orders-section {
+  margin-top: 2rem;
+}
+
+.orders-heading {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e2124;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #2d3034;
+  font-weight: 600;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #1a1c1e;
+}
+
+.orders-table tr:hover {
+  background-color: #2a2d30;
+}
+
+/* Sales Performance Section */
+.sales-performance {
+  margin-top: 3rem;
+}
+
+.sales-performance h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  background-color: #1e2124;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: background 0.3s ease;
+}
+
+.category-card:hover {
+  background-color: #292c31;
+}
+
+.category-name {
+  font-weight: bold;
+  color: #20c997;
+  font-size: 1.1rem;
+}
+
+.category-desc {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Stock Alert Section */
+.stock-alert-section {
+  margin-top: 3rem;
+}
+
+.stock-alert-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stock-alert-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e2124;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.stock-alert-table th,
+.stock-alert-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.stock-alert-table th {
+  background-color: #2d3034;
+  color: #ddd;
+}
+
+.stock-alert-table td {
+  border-bottom: 1px solid #444;
+}
+
+.stock-alert-table tr:nth-child(even) {
+  background-color: #1a1c1e;
+}
+
+.stock-alert-table tr:hover {
+  background-color: #2a2d30;
+}
+
+/* Stock Status Colors */
+.critical {
+  color: #dc2626;
+  /* red */
+  font-weight: bold;
+}
+
+.low {
+  color: #eab308;
+  /* yellow */
+  font-weight: bold;
+}
+
+.normal {
+  color: #16a34a;
+  /* green */
+  font-weight: bold;
+}

@@ -1,0 +1,114 @@
+.orders-container {
+  padding: 2rem;
+  background-color: #111315;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+.admin-section-heading {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 600;
+  padding-left: 12px;
+  margin: 1.5rem 0 1rem;
+  border-left: 3px solid #3b82f6;
+  color: #e2e8f0;
+}
+
+.orders-container h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.orders-container p {
+  color: #b0b0b0;
+  margin-bottom: 1.5rem;
+}
+
+.orders-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.orders-filters select {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #1e1f24;
+  color: white;
+  font-weight: 500;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1b1e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #25272b;
+  color: #ccc;
+  font-weight: 600;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #181a1c;
+}
+
+.orders-table tr:hover {
+  background-color: #2a2d30;
+}
+
+.status-badge {
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.status-badge.pending {
+  background-color: #444444;
+  color: #ffd700;
+}
+
+.status-badge.processing {
+  background-color: #1e3a5f;
+  color: #87ceeb;
+}
+
+.status-badge.shipped {
+  background-color: #2c3e50;
+  color: #00bcd4;
+}
+
+.status-badge.delivered {
+  background-color: #2e7d32;
+  color: #c8e6c9;
+}
+
+.status-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3f4b;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.status-btn:hover {
+  background-color: #505661;
+}
