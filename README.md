@@ -6,7 +6,7 @@
 
 ## 👋 About This Repo
 
-I'm **Preetham Kumar Dundigalla**, a B.Tech student at VIT-AP with a focus on ML, cloud systems, and GenAI. This repo is my personal workspace for exploring Claude's full capabilities — from prompt engineering and custom skills to real projects built with Claude Code.
+I'm **Preetham Kumar Dundigalla**, a B.Tech student at VIT-AP with a focus on ML, cloud systems, and GenAI.Cognizant employee focused on Java backend development. This repo is my personal workspace for exploring Claude's full capabilities — from prompt engineering and custom skills to real projects built with Claude Code.
 
 Think of it as a **field journal** — everything here was built hands-on, tested in real workflows, and refined over time.
 
