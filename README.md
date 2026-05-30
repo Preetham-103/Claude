@@ -40,11 +40,9 @@ Custom skill definitions that extend Claude's behavior for specific tasks. Each 
 | Skill | Purpose |
 |---|---|
 | `requirement-analyzar` | Breaks down Azure DevOps user stories into actionable requirements |
-| `solution-planner` | Converts requirements into implementation-ready technical plans |
-| `repo-impact-analyzer` | Maps which modules and services are affected by a change |
 | `bug-log-analyzer` | Diagnoses root causes from logs and stack traces |
-| `quick-quote-schema-validation` | Validates Quick Quote API payloads |
-| `create-quote-schema-validator` | Validates Create Quote API payloads with business logic checks |
+| `ExternalRequestValidator` | Validates External API payloads |
+| `schema-validator` | Validates API payloads with business logic checks |
 
 #### Artifacts
 Standalone interactive tools built inside Claude's artifact system.
